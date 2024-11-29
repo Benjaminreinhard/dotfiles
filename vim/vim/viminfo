@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
-|2,0,1732883319,,"q"
 :wq
-|2,0,1732470378,,"wq"
+|2,0,1732884938,,"wq"
+:q
+|2,0,1732884213,,"q"
 :w github_token
 |2,0,1732450149,,"w github_token"
 :q!
@@ -37,30 +37,86 @@
 |3,0,2,1,1,0,1732448778,"# This is Git's per-user configuration file."
 
 # File marks:
-'0  1  0  ~/.myrepo/.git/config
-|4,48,1,0,1732883319,"~/.myrepo/.git/config"
-'1  1  0  ~/.myrepo/.git/config
-|4,49,1,0,1732882599,"~/.myrepo/.git/config"
-'2  1  8  ~/.myrepo/README.md
-|4,50,1,8,1732470378,"~/.myrepo/README.md"
-'3  1  0  ~/.myremote/bash/.bashrc
-|4,51,1,0,1732469858,"~/.myremote/bash/.bashrc"
-'4  1  0  ~/.bashrc
-|4,52,1,0,1732469825,"~/.bashrc"
-'5  1  39  ~/github_token
-|4,53,1,39,1732450150,"~/github_token"
-'6  1  0  ~/.myremote/.git/config
-|4,54,1,0,1732448940,"~/.myremote/.git/config"
-'7  2  0  ~/.gitconfig
-|4,55,2,0,1732448782,"~/.gitconfig"
-'8  219  0  ~/.config/i3/config
-|4,56,219,0,1732447973,"~/.config/i3/config"
-'9  39  0  ~/.config/i3/config
-|4,57,39,0,1732446235,"~/.config/i3/config"
+'0  1  12  ~/.myrepo/.git/COMMIT_EDITMSG
+|4,48,1,12,1732884938,"~/.myrepo/.git/COMMIT_EDITMSG"
+'1  1  14  ~/.myrepo/.git/COMMIT_EDITMSG
+|4,49,1,14,1732884839,"~/.myrepo/.git/COMMIT_EDITMSG"
+'2  1  0  ~/.bashrc
+|4,50,1,0,1732884213,"~/.bashrc"
+'3  1  0  ~/.myrepo/.git/config
+|4,51,1,0,1732883811,"~/.myrepo/.git/config"
+'4  1  0  ~/.myrepo/.git/config
+|4,52,1,0,1732883319,"~/.myrepo/.git/config"
+'5  1  0  ~/.myrepo/.git/config
+|4,53,1,0,1732882599,"~/.myrepo/.git/config"
+'6  1  0  ~/.myrepo/.git/config
+|4,54,1,0,1732882599,"~/.myrepo/.git/config"
+'7  1  8  ~/.myrepo/README.md
+|4,55,1,8,1732470378,"~/.myrepo/README.md"
+'8  1  0  ~/.myremote/bash/.bashrc
+|4,56,1,0,1732469858,"~/.myremote/bash/.bashrc"
+'9  1  0  ~/.bashrc
+|4,57,1,0,1732469825,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  1  12  ~/.myrepo/.git/COMMIT_EDITMSG
+|4,39,1,12,1732884938,"~/.myrepo/.git/COMMIT_EDITMSG"
+-'  1  14  ~/.myrepo/.git/COMMIT_EDITMSG
+|4,39,1,14,1732884839,"~/.myrepo/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732884213,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732884213,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732884213,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732884213,"~/.bashrc"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883811,"~/.myrepo/.git/config"
 -'  1  0  ~/.myrepo/.git/config
 |4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732883319,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
+-'  1  0  ~/.myrepo/.git/config
+|4,39,1,0,1732882599,"~/.myrepo/.git/config"
 -'  1  0  ~/.myrepo/.git/config
 |4,39,1,0,1732882599,"~/.myrepo/.git/config"
 -'  1  8  ~/.myrepo/README.md
@@ -79,191 +135,149 @@
 |4,39,1,8,1732470378,"~/.myrepo/README.md"
 -'  1  8  ~/.myrepo/README.md
 |4,39,1,8,1732470378,"~/.myrepo/README.md"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.myremote/bash/.bashrc
-|4,39,1,0,1732469858,"~/.myremote/bash/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1732469825,"~/.bashrc"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
--'  1  39  ~/github_token
-|4,39,1,39,1732450150,"~/github_token"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
+-'  1  8  ~/.myrepo/README.md
+|4,39,1,8,1732470378,"~/.myrepo/README.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/.myrepo/.git/COMMIT_EDITMSG
+	*	1732884937	0
+	"	1	12
+	^	1	13
+	.	2	0
+	+	1	13
+	+	2	0
+
+> ~/.bashrc
+	*	1732884211	0
+	"	1	0
+	.	2	0
+	+	2	0
+
 > ~/.myrepo/.git/config
-	*	1732883311	0
+	*	1732883808	0
 	"	1	0
 
 > ~/.myrepo/README.md
@@ -276,12 +290,6 @@
 > ~/.myremote/bash/.bashrc
 	*	1732469856	0
 	"	1	0
-
-> ~/.bashrc
-	*	1732469824	0
-	"	1	0
-	.	2	0
-	+	2	0
 
 > ~/github_token
 	*	1732450149	0
