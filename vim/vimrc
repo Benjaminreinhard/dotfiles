@@ -1,0 +1,130 @@
+" ------------------------------------------------------
+" basic settings
+" ------------------------------------------------------
+
+" set compatibility to vim only
+set nocompatible
+
+" show line numbers 
+set number
+set numberwidth=2
+
+" set number of whitespaces for each tab
+set tabstop=2
+
+" set number of whitespaces for each indent
+set shiftwidth=2
+
+" Wrap
+" set wrap " wrap long lines
+set nowrap " do not wrap long lines
+
+" encoding
+set encoding=utf-8
+
+" change end of buffer symbol from '~' to '.'
+set fillchars=eob:.
+
+" current line
+" set cursorline " highlight cursor line
+set nocursorline " unhighlight cursor line
+
+" turn syntax highlighting on
+syntax on
+
+" change line using arrow keys at beginning or end of line
+set whichwrap+=<,>,[,],h,l
+
+" enable mouse
+set mouse=n
+
+" set the directory in which the swap files are stored
+set directory^=~/.vim/tmp//
+
+" set the location of the viminfo file
+set viminfo+=n~/.vim/viminfo
+
+" show / hide tab line
+set showtabline=1 " hide tab bar
+" set showtabline=2 " show tab bar
+
+" tab line
+set tabline=%!mytabline#Line()
+
+" status bar
+set laststatus=1 " hide status bar
+" set laststatus=1 " show status bar
+
+" color scheme
+" see in the following link for images of color schemes:
+" https://vimcolorschemes.com/vim/colorschemes
+colorscheme evening
+
+" highlighting of matching parenthesis
+highlight MatchParen cterm=bold ctermbg=none ctermfg=none
+
+" highlighting LineNr the same as Comments
+highlight! link LineNr Comment
+
+" highlighting Todo the same as Comments
+highlight! link Todo Comment
+
+" highlighting EndOfBuffer the same as Comments
+highlight! link EndOfBuffer Coment
+
+" ------------------------------------------------------
+" plugins
+" ------------------------------------------------------
+
+" call plug#begin()
+" 
+" " un / comment lines
+" Plug 'tpope/vim-commentary'
+" 
+" " javascript-specific
+" Plug 'pangloss/vim-javascript' 
+" 
+" " rails specific
+" Plug 'tpope/vim-rails'
+" 
+" " fuzzy finder
+" Plug 'junegunn/fzf.vim'
+" 
+" call plug#end()
+
+" ------------------------------------------------------
+" mappings
+" ------------------------------------------------------
+
+" define a leader key
+let mapleader = ','
+
+" save file
+nnoremap <c-s> :update<cr>
+inoremap <c-s> <esc>:update<cr>
+
+" scrolling
+map <c-Up> <c-y>
+map <c-Down> <c-e>
+map <c-Left> z<Left>
+map <c-Right> z<Right>
+
+" select a word
+nmap <space> viw
+
+" buffers
+nnoremap <c-PageUp> :bp<cr>
+nnoremap <c-PageDown> :bn<cr>
+nnoremap <c-Del> :bd<cr>
+nnoremap <c-Home> :Buffers<cr>
+
+" fzf
+noremap <c-p> :Files<cr>
+noremap <c-f> :Rg<cr>
+
+" yank / paste text to clipboard
+vmap <leader>y "+y
+map <leader>p "+p
+
+vmap <leader>a "ay
+map <leader>b "ap
