@@ -1,0 +1,34 @@
+#!/usr/bin/bash
+
+function single_setup() {
+  if [ $# -ne 2 ]; then
+    echo "Needs two arguments"
+    return
+  fi
+
+  local target="$HOME/.myrepo/$1"
+  local link="$HOME/$2"
+
+  if [ ! -e $target ]; then
+    echo "Target does not exist"
+    return
+  fi
+
+  if [ -e $link ]; then
+    echo "Location already exists."
+    read -p "Do you want to continue? (y/N): " ans
+    if [[ "$ans" != "y" ]]; then
+      echo "Abord"
+      return
+    fi
+    read -p "Move the existing location to location.old? (y/N): " ans
+    if [[ "$ans" == "y" ]]; then
+      mv $link $link.old
+    else
+      rm $link
+    fi
+  fi
+
+  ln -s $target $link
+}
+
