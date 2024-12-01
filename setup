@@ -1,27 +1,32 @@
 #!/usr/bin/bash
 
+# setup function for a single config
 function single_setup() {
   if [ $# -ne 2 ]; then
     echo "Needs two arguments"
     return
   fi
 
-  local target="$HOME/.myrepo/$1"
+  local target="$HOME/.dotfiles/$1"
   local link="$HOME/$2"
 
   if [ ! -e $target ]; then
-    echo "Target does not exist"
+    echo "$target does not exist"
     return
   fi
 
-  if [ -e $link ]; then
-    echo "Location already exists."
-    read -p "Do you want to continue? (y/N): " ans
+  if [[ -e $link && -e $link.old ]]; then
+    echo "$link and $link.old location already exist."
+    return
+  fi
+
+  if [[ -e $link && ! -e $link.old ]]; then
+    read -p "$link already exists. Continue? (y/N): " ans
     if [[ "$ans" != "y" ]]; then
-      echo "Abord"
       return
     fi
-    read -p "Move the existing location to location.old? (y/N): " ans
+
+    read -p "Move it to $link.old? (y/N): " ans
     if [[ "$ans" == "y" ]]; then
       mv $link $link.old
     else
@@ -31,4 +36,12 @@ function single_setup() {
 
   ln -s $target $link
 }
+
+# execute single_setup for each config
+single_setup i3 .config/i3
+single_setup kitty .config/kitty
+single_setup bash/bashrc .bashrc
+single_setup bash/bashrc.d .bashrc.d
+single_setup vim/vimrc .vimrc
+single_setup vim/vim .vim
 

@@ -1,0 +1,4 @@
+/vim/vim/viminfo
+
+# exclude work aliases
+/bash/bashrc.d/work_aliases

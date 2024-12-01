@@ -45,7 +45,3 @@ eval "$(fzf --bash)"
 # aliases
 alias {vi,vim}="vimx"
 
-# xpt specific
-# alias xc="cd ~/xpt; bin/ruby bin/rails console"
-# alias xs="cd ~/xpt; bin/ruby bin/rails server"
-
