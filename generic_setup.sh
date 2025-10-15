@@ -56,7 +56,7 @@ done
 # 4. Validate the safety to create symlinks in Target-directory
 
 for path in $(find $SETUP_DIR -mindepth 1 -type f); do
-	path_without_setup="${path#$SETUP_DIR}"
+	path_without_setup="${path#"$SETUP_DIR"}"
 	target_path="$TARGET_DIR$path_without_setup"
 
 	if [ -e "$target_path" ] && [ ! -f "$target_path" ]; then
@@ -68,12 +68,12 @@ done
 # 5. Create symlinks and backups, if necessary
 
 for path in $(find $SETUP_DIR -mindepth 1 -type f); do
-	path_without_setup="${path#$SETUP_DIR}"
+	path_without_setup="${path#"$SETUP_DIR"}"
 
 	target_path="$TARGET_DIR$path_without_setup"
 	target_dir="$(dirname "$target_path")"
 
-	if [ -L "$target_path" ] && [ "$path" == "$(readlink -f $target_path)" ]; then
+	if [ -L "$target_path" ] && [ "$path" == "$(readlink -f "$target_path")" ]; then
 		continue
   fi
 
