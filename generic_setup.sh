@@ -5,7 +5,7 @@
 
 if [ "$#" -ne 3 ]; then
 	echo "ERROR: Requires three arguments, i.e. " \
-		"'setup <setup_dir> <taget_dir> <backups_dir>'." >&2
+		"'generic_setup <setup_dir> <taget_dir> <backups_dir>'." >&2
 	exit 1
 fi
 
