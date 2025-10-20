@@ -38,7 +38,7 @@ if [ -d "$BACKUP_DIR" ]; then
   BACKUP_DIR="${BACKUP_DIR}_2"
 fi
 
-# 3. Validate prperness of Setup-directory
+# 3. Validate properness of Setup-directory
 
 for path in $(find $SETUP_DIR -mindepth 1); do
 	if [ ! -f "$path" ] && [ ! -d "$path" ]; then
@@ -77,7 +77,7 @@ for path in $(find $SETUP_DIR -mindepth 1 -type f); do
 		continue
   fi
 
-	if [ -e "$target_path" ]; then
+	if [ -e "$target_path" ] || [ -L "$target_path" ]; then
 		backup_path="$BACKUP_DIR$path_without_setup"
 		backup_dir="$(dirname "$backup_path")"
 		mkdir -p "$backup_dir"
