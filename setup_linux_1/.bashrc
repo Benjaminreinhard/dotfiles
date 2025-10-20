@@ -1,0 +1,44 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+
+# set default editor
+export VISUAL=vimx
+export EDITOR="$VISUAL"
+
+# set color variables
+BRed="\[\033[1;31m\]"
+BGreen="\[\033[1;32m\]"
+BYellow="\[\033[1;33m\]"
+BBlue="\[\033[1;34m\]"
+BMagneta="\[\033[1;35m\]"
+BCyan="\[\033[1;36m\]"
+BWhite="\[\033[1;37m\]"
+IYellow="\[\033[0;93m\]"
+Color_Off="\[\033[0m\]"
+
+# set ps1
+PS1="${BGreen}> ${BBlue}\w ${BYellow}\$(parse_git_branch) ${Color_Off}"
+
+# set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
