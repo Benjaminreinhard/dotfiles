@@ -58,13 +58,13 @@ set laststatus=0 " hide status bar
 " color scheme
 " see in the following link for images of color schemes:
 " https://vimcolorschemes.com/vim/colorschemes
-" colorscheme evening
+colorscheme evening
 
 " turn of background highlighting of colorscheme
 highlight Normal ctermbg=none
 
 " highlighting of matching parenthesis
-highlight MatchParen cterm=bold ctermbg=none ctermfg=none
+" highlight MatchParen cterm=bold ctermbg=none ctermfg=none
 
 " highlighting LineNr the same as Comments
 highlight! link LineNr Comment
@@ -88,11 +88,11 @@ call plug#begin()
 Plug 'tpope/vim-commentary'
 
 " git plugins
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
+" Plug 'tpope/vim-fugitive'
+" Plug 'airblade/vim-gitgutter'
 
 " fuzzy finder
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
