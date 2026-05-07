@@ -1,2 +1,4 @@
 # Ignore generated backups
 /backups/
+
+**.swp

@@ -1,6 +1,6 @@
-" ------------------------------------------------------
+" --------------
 " basic settings
-" ------------------------------------------------------
+" --------------
 
 " set compatibility to vim only
 set nocompatible
@@ -16,8 +16,9 @@ set tabstop=2
 set shiftwidth=2
 
 " Wrap
-" set wrap " wrap long lines
-set nowrap " do not wrap long lines
+" set nowrap " do not wrap long lines
+set wrap " wrap long lines
+set linebreak
 
 " encoding
 set encoding=utf-8
@@ -78,9 +79,9 @@ highlight! link EndOfBuffer Comment
 " highlighting EndOfBuffer the same as Comments
 highlight! link VertSplit Comment
 
-" ------------------------------------------------------
+" -------
 " plugins
-" ------------------------------------------------------
+" -------
 
 call plug#begin()
 
@@ -96,9 +97,9 @@ Plug 'tpope/vim-commentary'
 
 call plug#end()
 
-" ------------------------------------------------------
+" --------
 " mappings
-" ------------------------------------------------------
+" --------
 
 " save file
 " nmap <a-s> <esc>:update<cr>
