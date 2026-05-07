@@ -1,6 +1,6 @@
 # Dotfiles
 
-This repository contains configuration files (dotfiles) and a setup script to quickly configure a new workstation.
+This repository contains configuration files, i.e. dotfiles, and a setup script to quickly configure a new workstation.
 
 ## Requirements
 
@@ -16,12 +16,12 @@ bash setup.sh <setup_dir>
 
 `<setup_dir>` is a path to the folder containing the dotfiles you want to install. For each file in this folder, a symlink will be created starting from home-directory as follows:
 
-**Case 1:** If `<setup_dir>/foo/bar.txt` exists and `~/foo/bar.txt` does not, then a symlink
-```bash
-~/foo/bar.txt -> <setup_dir>/foo/bar.txt`
-```
-is created.
+* **Case 1:** If `<setup_dir>/foo/bar.txt` exists and `~/foo/bar.txt` does not, then the following symlink is created:
 
-**Case 2:** If `<setup_dir>/foo/bar.txt` and `~/foo/bar.txt` exist, then `~/foo/bar.txt` is moved to `backups/backup_at_yyymmdd-hhmmss/foo/bar.txt` and a symlink `~/foo/bar.txt -> <setup_dir>/foo/bar.txt` is created.
+      ~/foo/bar.txt -> <setup_dir>/foo/bar.txt
 
-**Case 3:** If `<setup_dir>/foo/bar.txt` exists and `~/foo/bar.txt` is already a symlink to `<setup_dir>/foo/bar.txt`, then nothing happens.
+* **Case 2:** If `<setup_dir>/foo/bar.txt` and `~/foo/bar.txt` exist, then `~/foo/bar.txt` is moved to `backups/backup_at_yyymmdd-hhmmss/foo/bar.txt` and the following symlink is created:
+
+      ~/foo/bar.txt -> <setup_dir>/foo/bar.txt
+
+* **Case 3:** If `<setup_dir>/foo/bar.txt` exists and `~/foo/bar.txt` is already a symlink to `<setup_dir>/foo/bar.txt`, then nothing happens.
