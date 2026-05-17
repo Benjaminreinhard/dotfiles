@@ -143,3 +143,9 @@ map <a-b> <esc>:Git blame<cr>
 " use alt key for window management
 nmap <a-w> <c-w>
 
+" run make
+map <c-m> <esc>:belowright terminal make<cr>
+
+" source vimrc
+map <c-s> <esc>:w \| :source ~/.vimrc<cr>
+
